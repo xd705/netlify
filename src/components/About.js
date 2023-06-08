@@ -22,7 +22,7 @@ import {
 
     
       <Box
-      p={5} bg="black" paddingTop="20" paddingBottom="10">
+      p={5} bg="black" align="center" paddingTop="20" paddingBottom="10">
       <Box
       bg="gray.500"
         as={Stack}

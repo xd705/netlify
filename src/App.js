@@ -5,7 +5,7 @@ import About from './components/About'
 import MainMint from './components/MainMint';
 import SmallCentered from './components/SmallCentered';
 import {ChakraProvider,theme,} from '@chakra-ui/react';
-import { configureChains, createClient, createConfig, WagmiConfig, sepolia, useAccount, mainnet } from "wagmi";
+import { configureChains, createClient, createConfig, WagmiConfig, goerli, useAccount, mainnet } from "wagmi";
 import { infuraProvider } from "wagmi/providers/infura";
 import { publicProvider } from "wagmi/providers/public";
 import { getAccount } from "@wagmi/core";
@@ -14,8 +14,8 @@ import { Web3Modal } from '@web3modal/react'
 
 
 
-const chains = [sepolia]
-const projectId = '3647dcbeecbd34bc36b1a69680afbf81'
+const chains = [goerli]
+const projectId = '5add517a7e2d268585002d44a7b0cf28'
 
 const { publicClient } = configureChains(chains, [w3mProvider({ projectId }), infuraProvider({ apiKey: '17a94eae7c5b4ffe86120a9f1ae33a37' })])
 const wagmiConfig = createConfig({
@@ -44,7 +44,7 @@ function App() {
         '--w3m-background-color': '#9E9998',
         '--w3m-accent-fill-color': '#111c54'
       }}
-      defaultChain= {sepolia}
+      defaultChain= {goerli}
        />
          <About/>
          <SmallCentered />

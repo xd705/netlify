@@ -7,7 +7,7 @@ import { useAccount} from 'wagmi';
 import Background from './background.gif'
 
 
-const mzTzAddress = "0x638506D625E60ac4FD1A844aF5Ce97825CE543E4";
+const mzTzAddress = "0x831A1a934C623E6cBCfB3a82d7560D1C17769807";
 
 
 

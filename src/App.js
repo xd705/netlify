@@ -5,7 +5,8 @@ import About from './components/About'
 import MainMint from './components/MainMint';
 import SmallCentered from './components/SmallCentered';
 import {ChakraProvider,theme,} from '@chakra-ui/react';
-import { configureChains, createClient, createConfig, WagmiConfig, goerli, useAccount, mainnet } from "wagmi";
+import { configureChains, createClient, createConfig, WagmiConfig, useAccount, mainnet } from "wagmi";
+import { goerli } from 'wagmi/chains';
 import { infuraProvider } from "wagmi/providers/infura";
 import { publicProvider } from "wagmi/providers/public";
 import { getAccount } from "@wagmi/core";

@@ -179,7 +179,7 @@ const MainMint = ({ accounts, setAccounts}) => {
             fontFamily="inherit"
             textShadow="0 3px #000000"
             color="D6517D"
-            > Must be connected to mint </Text>
+            > Connect your wallet to mint </Text>
         )}
          {errorMessage && <Flex className="error" padding="0px"  color="red" height="0px" justify="center" align="auto">{errorMessage}</Flex>}
          {handleMint && <Flex padding="0px" color="green" height="0px" justify="center" align="auto">{mintedMessage}</Flex>}

@@ -209,17 +209,17 @@ const NavBar =({accounts, setAccounts}) => {
               >
                 
              <Flex> 
-             <Link href="https://www.twitter.com">
+             <Link href="https://twitter.com/MozziTozzi">
              <Image src={Twitter} boxSize="42px" margin="0 15px"  />
            </Link>
            </Flex>
            <Flex>
-           <Link href="https://www.gmail.com">
+           <Link href="https://opensea.io/collection/mozzitozzi">
              <Image src={Opensea} boxSize="42px" margin="0 15px"  />
            </Link>
            </Flex>
            <Flex>
-           <Link href="https://www.facebook.com">
+           <Link href="https://etherscan.io/address/0x831a1a934c623e6cbcfb3a82d7560d1c17769807">
             <Image src={Etherscan} boxSize="55px" margin="0 15px" />
            </Link>
          </Flex>
@@ -268,17 +268,17 @@ const NavBar =({accounts, setAccounts}) => {
                   
   
             <Flex> 
-             <Link href="https://www.twitter.com">
+             <Link href="https://twitter.com/MozziTozzi">
              <Image src={Twitter} boxSize="22px" />
            </Link>
            </Flex>
            <Flex>
-           <Link href="https://www.gmail.com">
+           <Link href="https://opensea.io/collection/mozzitozzi">
              <Image src={Opensea} boxSize="22px"  />
            </Link>
            </Flex>
            <Flex>
-           <Link href="https://www.facebook.com">
+           <Link href="https://etherscan.io/address/0x831a1a934c623e6cbcfb3a82d7560d1c17769807">
             <Image src={Etherscan} boxSize="28px"  />
            </Link>
          </Flex>

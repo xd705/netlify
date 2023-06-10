@@ -31,7 +31,7 @@ const MainMint = ({ accounts, setAccounts}) => {
         );
         try{
           const response = await contract.mint(BigNumber.from(mintAmount),{
-            value: ethers.utils.parseEther((0.005 * mintAmount).toString()), gasLimit: 30000 ,
+            value: ethers.utils.parseEther((0.005 * mintAmount).toString()), gasLimit: "auto" ,
           });
           console.log('response: ', response); 
           setMintedMessage("Your MozziTozzi is Succefuly Minted")

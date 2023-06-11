@@ -52,16 +52,6 @@ const MainMint = ({ accounts, setAccounts}) => {
  }
  
 
- const handleDecrement = () => {
-    if (mintAmount <= 1) return;
-    setMintAmount(mintAmount - 1);
- };
-
- const handleIncrement = () => {
-    if (mintAmount >= 10) return;
-    setMintAmount(mintAmount + 1);
- };
-
 
 
 
@@ -113,17 +103,7 @@ const MainMint = ({ accounts, setAccounts}) => {
            {isConnected ? (
         <Flex direction="column">
             <Flex justify="center" align="auto" >
-                <Button 
-                  backgroundColor="gray.900"
-                  borderRadius="5px"
-                  boxShadow="0px 2px 2px 1px #0F0F0F"
-                  color="#e4cb3a"
-                  cursor="pointer"
-                  fontFamily="inherit"
-                  fontSize="25px"
-                  padding="15px"
-                  marginTop="10px"
-                  onClick={handleDecrement}> - </Button>
+              
 
                 <Input
                 readOnly
@@ -137,17 +117,7 @@ const MainMint = ({ accounts, setAccounts}) => {
                 type="number"
                 value={mintAmount} />
 
-                <Button
-                 backgroundColor="gray.900"
-                 borderRadius="5px"
-                 boxShadow="0px 2px 2px 1px #0F0F0F"
-                 color="#e4cb3a"
-                 cursor="pointer"
-                 fontFamily="inherit"
-                 fontSize="20px"
-                 padding="15px"
-                 marginTop="10px"
-                 onClick={handleIncrement}> + </Button>
+                
                 </Flex>
                
                 <Flex justify="center" align="auto">
@@ -169,6 +139,9 @@ const MainMint = ({ accounts, setAccounts}) => {
                        
                   <Text>
                   current minting price is 0.005 ETH excluding gas fees
+                 </Text>
+                   <Text>
+                  1 random MTZ per transaction
                  </Text>
 
          </Flex>

@@ -215,7 +215,7 @@ const NavBar =({accounts, setAccounts}) => {
            </Flex>
            <Flex>
            <Link href="https://rarible.com/mozzitozzi">
-             <Image src={Rarible} boxSize="42px" margin="0 15px"  />
+             <Image src={Rarible} boxSize="82px" margin="0 15px"  />
            </Link>
            </Flex>
            <Flex>
@@ -269,7 +269,7 @@ const NavBar =({accounts, setAccounts}) => {
   
             <Flex> 
              <Link href="https://twitter.com/MozziTozzi">
-             <Image src={Twitter} boxSize="22px" />
+             <Image src={Twitter} boxSize="42px" />
            </Link>
            </Flex>
            <Flex>

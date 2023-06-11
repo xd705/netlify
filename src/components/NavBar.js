@@ -156,7 +156,7 @@ import Logo from "./logo.gif";
 import { useAccount} from 'wagmi'
 import { Web3Button } from '@web3modal/react'
 import Twitter from './twitter.png'
-import Opensea from './opensea.png'
+import Rarible from './rarible.png'
 import Etherscan from './etherscan.png'
 
 
@@ -214,8 +214,8 @@ const NavBar =({accounts, setAccounts}) => {
            </Link>
            </Flex>
            <Flex>
-           <Link href="https://opensea.io/collection/mozzitozzi">
-             <Image src={Opensea} boxSize="42px" margin="0 15px"  />
+           <Link href="https://rarible.com/mozzitozzi">
+             <Image src={Rarible} boxSize="42px" margin="0 15px"  />
            </Link>
            </Flex>
            <Flex>
@@ -273,8 +273,8 @@ const NavBar =({accounts, setAccounts}) => {
            </Link>
            </Flex>
            <Flex>
-           <Link href="https://opensea.io/collection/mozzitozzi">
-             <Image src={Opensea} boxSize="22px"  />
+           <Link href="https://rarible.com/mozzitozzi">
+             <Image src={Rarible} boxSize="22px"  />
            </Link>
            </Flex>
            <Flex>

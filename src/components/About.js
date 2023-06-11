@@ -41,7 +41,7 @@ import {
                    -MozziTozzi collection live in Ethereum blockchain with total supply of 10,000 MTZs, each of them is unique.
                    </Text>
                <Text   fontFamily="Open Sans" fontSize={["xl", ,"2xl"]} color="yellow.200">
-                   -MozziTozzi smart contract is "0x831A1a934C623E6cBCfB3a82d7560D1C17769807". Which has minting loop function that give's ability to minters to mint up to 10 random MZTs per transaction with same gas fees to mint one.
+                   -MozziTozzi smart contract is "0x831A1a934C623E6cBCfB3a82d7560D1C17769807". Which has a function of mint just 1 MTZ per transaction .
                    </Text>
                <Text   fontFamily="Open Sans" fontSize={["xl", ,"2xl"]} color="yellow.200">
                     -MozziTozzi json files are stored permenantly in decentralized IPFS system. 

@@ -99,7 +99,7 @@ const MainMint = ({ accounts, setAccounts}) => {
            </Flex>
            </Box>
            </Box>
-           <Flex direction="column" justify="center" align="auto" paddingTop="2">
+           <Flex direction="column" justify="center" align="auto" paddingTop="1">
            {isConnected ? (
         <Flex direction="column">
             <Flex justify="center" align="auto" >

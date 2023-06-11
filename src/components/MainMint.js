@@ -31,7 +31,7 @@ const MainMint = ({ accounts, setAccounts}) => {
         );
         try{
           const response = await contract.mint(BigNumber.from(mintAmount),{
-            value: ethers.utils.parseEther((0.005 * mintAmount).toString()), gasLimit: 1000000 ,
+            value: ethers.utils.parseEther((0.005 * mintAmount).toString()),
           });
           console.log('response: ', response); 
           setMintedMessage("Your MozziTozzi is Succefuly Minted")
@@ -99,7 +99,7 @@ const MainMint = ({ accounts, setAccounts}) => {
            </Flex>
            </Box>
            </Box>
-           <Flex direction="column" justify="center" align="auto" paddingTop="25">
+           <Flex direction="column" justify="center" align="auto" paddingTop="15">
            {isConnected ? (
         <Flex direction="column">
             <Flex justify="center" align="auto" >

@@ -47,7 +47,7 @@ import {
                     -MozziTozzi json files are stored permenantly in decentralized IPFS system. 
                    </Text>
                <Text   fontFamily="Open Sans" fontSize={["xl", ,"2xl"]} color="yellow.200">
-                    -The exclusive marketplace is Opensea. 
+                    -See minted MozziTozzi in Rarible . 
                    </Text>
                 
       </Box>

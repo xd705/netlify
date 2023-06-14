@@ -138,7 +138,7 @@ const MainMint = ({ accounts, setAccounts}) => {
                    </Flex>
                        
                   <Text>
-                  current minting price is 0.005 ETH excluding gas fees
+                  currently it is free to mint 
                  </Text>
                    <Text>
                   1 random MTZ per transaction

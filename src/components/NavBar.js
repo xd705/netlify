@@ -219,7 +219,7 @@ const NavBar =({accounts, setAccounts}) => {
            </Link>
            </Flex>
            <Flex>
-           <Link href="https://etherscan.io/address/0x831a1a934c623e6cbcfb3a82d7560d1c17769807">
+           <Link href="https://etherscan.io/token/0x831a1a934c623e6cbcfb3a82d7560d1c17769807">
             <Image src={Etherscan} boxSize="55px" margin="0 15px" />
            </Link>
          </Flex>
@@ -278,7 +278,7 @@ const NavBar =({accounts, setAccounts}) => {
            </Link>
            </Flex>
            <Flex>
-           <Link href="https://etherscan.io/address/0x831a1a934c623e6cbcfb3a82d7560d1c17769807">
+           <Link href="https://etherscan.io/token/0x831a1a934c623e6cbcfb3a82d7560d1c17769807">
             <Image src={Etherscan} boxSize="28px"  />
            </Link>
          </Flex>

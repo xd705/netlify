@@ -50,7 +50,7 @@ import {
                     -See minted MozziTozzi in Rarible . 
                    </Text>
                 <Text   fontFamily="Open Sans" fontSize={["xl", ,"2xl"]} color="yellow.200">
-                    -Currntly minting price is Zero until 1000 MTZ minted , We incresing minting price after each 1000 MTZ minted . 
+                    -Currntly minting price is Zero until 1000 MTZ minted , We are incresing minting price after each 1000 MTZ minted . 
                    </Text>
                 
       </Box>

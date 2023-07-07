@@ -31,7 +31,7 @@ const MainMint = ({ accounts, setAccounts}) => {
         );
         try{
           const response = await contract.mint(BigNumber.from(mintAmount),{
-            value: ethers.utils.parseEther((0.005 * mintAmount).toString()),
+            value: ethers.utils.parseEther((0.05 * mintAmount).toString()),
           });
           console.log('response: ', response); 
           setMintedMessage("Your MozziTozzi is Succefuly Minted")
@@ -138,7 +138,7 @@ const MainMint = ({ accounts, setAccounts}) => {
                    </Flex>
                        
                   <Text>
-                  currently it is free to mint 
+                  currently it is 0.05 eth to mint 
                  </Text>
                    <Text>
                   1 random MTZ per transaction

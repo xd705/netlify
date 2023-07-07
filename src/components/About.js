@@ -50,7 +50,7 @@ import {
                     -See minted MozziTozzi in Rarible . 
                    </Text>
                 <Text   fontFamily="Open Sans" fontSize={["xl", ,"2xl"]} color="yellow.200">
-                    -Currently minting price is 0.005 eth until 1000 MTZs are minted , We are increasing minting price for each 1000 MTZs are minted . 
+                    -Currently minting price is 0.05 eth until 1000 MTZs are minted , We are increasing minting price for each 1000 MTZs are minted . 
                    </Text>
                 
       </Box>

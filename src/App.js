@@ -7,7 +7,7 @@ import SmallCentered from './components/SmallCentered';
 import {ChakraProvider,theme,} from '@chakra-ui/react';
 import { configureChains, createClient, createConfig, WagmiConfig, useAccount, mainnet } from "wagmi";
 import { goerli } from 'wagmi/chains';
-import { infuraProvider } from "wagmi/providers/infura";
+import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 import { getAccount } from "@wagmi/core";
 import { EthereumClient, w3mConnectors, w3mProvider } from '@web3modal/ethereum'
@@ -18,7 +18,7 @@ import { Web3Modal } from '@web3modal/react'
 const chains = [mainnet]
 const projectId = '5add517a7e2d268585002d44a7b0cf28'
 
-const { publicClient } = configureChains(chains, [w3mProvider({ projectId }), infuraProvider({ apiKey: '17a94eae7c5b4ffe86120a9f1ae33a37' })])
+const { publicClient } = configureChains(chains, [w3mProvider({ projectId }), alchemyProvider({ apiKey: 'TzdwUg4atq5LBCFN9WO56PoxIwnkuEzs' })])
 const wagmiConfig = createConfig({
   autoConnect: true,
   connectors: w3mConnectors({ projectId, version: 1, chains }),
